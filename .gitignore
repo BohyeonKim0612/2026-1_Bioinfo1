@@ -1,0 +1,17 @@
+# 대용량 바이너리 및 정렬 데이터 제외
+*.bam
+*.bai
+*.gz
+*.gtf
+*.pileup
+*.bed
+*.txt
+*.summary
+
+# 가상환경 및 작업 폴더 통째로 제외 (필요한 경우)
+binfo1-work/
+binfo1-datapack1/
+colab-biolab/
+.venv/
+__pycache__/
+.ipynb_checkpoints/
